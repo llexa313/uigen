@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vitest:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm run:*)",
+      "Bash(git stash:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright",
+      "mcp__playwright__browser_take_screenshot"
+    ]
+  }
+}

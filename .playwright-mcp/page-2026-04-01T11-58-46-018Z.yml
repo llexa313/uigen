@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e56]: Create a simple dashboard card component with a title, metric value, and a trend indicator
+            - img [ref=e59]
+          - generic [ref=e62]:
+            - img [ref=e65]
+            - generic [ref=e70]:
+              - generic [ref=e73]: Updated App.jsx
+              - separator [ref=e74]
+              - generic [ref=e77]: Updated DashboardCard.jsx
+              - separator [ref=e78]
+              - generic [ref=e79]:
+                - paragraph [ref=e80]: "Done! Created a dashboard card component with:"
+                - list [ref=e81]:
+                  - listitem [ref=e82]:
+                    - strong [ref=e83]: Title
+                    - text: "- metric name"
+                  - listitem [ref=e84]:
+                    - strong [ref=e85]: Value
+                    - text: "- large metric display"
+                  - listitem [ref=e91]:
+                    - strong [ref=e92]: Trend indicator
+                    - text: "- up/down arrow with percentage change"
+                  - listitem [ref=e93]:
+                    - strong [ref=e94]: Color coding
+                    - text: "- green for positive trends, red for negative"
+                  - listitem [ref=e95]:
+                    - strong [ref=e96]: Responsive grid
+                    - text: "- 4 example cards in the App"
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [ref=e31]
+          - tab "Code" [selected] [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e97]:
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105] [cursor=pointer]:
+              - img [ref=e106]
+              - img [ref=e108]
+              - generic [ref=e110]: components
+            - generic [ref=e113] [cursor=pointer]:
+              - img [ref=e114]
+              - generic [ref=e119]: DashboardCard.jsx
+          - generic [ref=e121] [cursor=pointer]:
+            - img [ref=e122]
+            - generic [ref=e127]: App.jsx
+        - separator [ref=e128]
+        - code [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e136]:
+              - generic [ref=e439]: "1"
+              - generic [ref=e143]: "2"
+              - generic [ref=e441]:
+                - generic [ref=e442] [cursor=pointer]: 
+                - generic [ref=e443]: "3"
+              - generic [ref=e445]: "4"
+              - generic [ref=e447]: "5"
+              - generic [ref=e154]: "6"
+              - generic [ref=e157]: "7"
+              - generic [ref=e448]:
+                - generic [ref=e449] [cursor=pointer]: 
+                - generic [ref=e450]: "8"
+              - generic [ref=e451]:
+                - generic [ref=e452] [cursor=pointer]: 
+                - generic [ref=e453]: "9"
+              - generic [ref=e454]:
+                - generic [ref=e455] [cursor=pointer]: 
+                - generic [ref=e456]: "10"
+              - generic [ref=e457]:
+                - generic [ref=e458] [cursor=pointer]: 
+                - generic [ref=e459]: "11"
+              - generic [ref=e170]: "12"
+              - generic [ref=e172]: "13"
+              - generic [ref=e461]: "14"
+              - generic [ref=e462]:
+                - generic [ref=e463] [cursor=pointer]: 
+                - generic [ref=e464]: "15"
+              - generic [ref=e465]:
+                - generic [ref=e466] [cursor=pointer]: 
+                - generic [ref=e467]: "16"
+              - generic [ref=e181]: "17"
+              - generic [ref=e468]:
+                - generic [ref=e469] [cursor=pointer]: 
+                - generic [ref=e470]: "18"
+              - generic [ref=e472]: "19"
+              - generic [ref=e188]: "20"
+              - generic [ref=e190]: "21"
+              - generic [ref=e192]: "22"
+              - generic [ref=e194]: "23"
+              - generic [ref=e473]:
+                - generic [ref=e474] [cursor=pointer]: 
+                - generic [ref=e475]: "24"
+              - generic [ref=e484]: "25"
+            - generic [ref=e365]:
+              - generic [ref=e596]: "import { TrendingUp, TrendingDown } from"
+              - generic [ref=e598]: "'lucide-react';"
+              - generic [ref=e600]: "export default function DashboardCard({ title, value,"
+              - generic [ref=e602]: const isPositive = trend >= 0;
+              - generic [ref=e604]: "const trendColor = isPositive ? 'text-green-600' :"
+              - generic [ref=e606]: "const bgColor = isPositive ? 'bg-green-50' :"
+              - generic [ref=e608]: "'bg-red-50';"
+              - generic [ref=e611]: return (
+              - generic [ref=e613]: <div className="bg-white rounded-lg shadow p-6">
+              - generic [ref=e615]: <div className="flex items-start
+              - generic [ref=e617]: <div>
+              - generic [ref=e619]: <p className="text-gray-600 text-sm
+              - generic [ref=e621]: <p className="text-3xl font-bold
+              - generic [ref=e623]: </div>
+              - generic [ref=e625]: "<div className={`${bgColor} rounded-lg p-2`}>"
+              - generic [ref=e627]: "{isPositive ? ("
+              - generic [ref=e629]: "<TrendingUp className={`${trendColor} w-5"
+              - generic [ref=e631]: ") : ("
+              - generic [ref=e633]: "<TrendingDown className={`${trendColor}"
+              - generic [ref=e635]: ")}"
+              - generic [ref=e637]: </div>
+              - generic [ref=e639]: </div>
+              - generic [ref=e643]: <div className="mt-4 flex items-center gap-1">
+              - generic [ref=e645]: "trend }) {"
+              - generic [ref=e647]: "'text-red-600';"
+              - generic [ref=e649]: justify-between">
+              - generic [ref=e651]: "font-medium\">{title}</p>"
+              - generic [ref=e653]: "text-gray-900 mt-2\">{value}</p>"
+              - generic [ref=e655]: "h-5`} />"
+              - generic [ref=e657]: "w-5 h-5`} />"
+              - generic [ref=e659]: "<span className={`text-sm font-semibold $"
+            - textbox "Editor content" [ref=e434]: "</div> ); }"
+  - alert [ref=e46]
+  - generic [ref=e435]:
+    - alert
+    - alert

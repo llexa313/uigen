@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e56]: Create the same dashboard card component with a title, metric value, and a trend indicator
+            - img [ref=e59]
+          - generic [ref=e84]:
+            - img [ref=e87]
+            - generic [ref=e92]:
+              - paragraph [ref=e94]: I'll create a dashboard card component with a title, metric value, and trend indicator.
+              - generic [ref=e97]: Updated App.jsx
+              - separator [ref=e98]
+              - paragraph [ref=e100]: "Now I'll create the DashboardCard component:"
+              - generic [ref=e103]: Updated DashboardCard.jsx
+              - separator [ref=e104]
+              - generic [ref=e105]:
+                - paragraph [ref=e106]: "Done. The dashboard card component features:"
+                - list [ref=e107]:
+                  - listitem [ref=e108]:
+                    - strong [ref=e109]: Dark, sophisticated design
+                    - text: with slate gradient background
+                  - listitem [ref=e110]:
+                    - strong [ref=e111]: Trend indicator
+                    - text: that changes color based on positive (emerald) or negative (rose) movement
+                  - listitem [ref=e112]:
+                    - strong [ref=e113]: Hover effects
+                    - text: with accent line and shadow for interactivity
+                  - listitem [ref=e114]:
+                    - strong [ref=e115]: Clean typography
+                    - text: with light weight for the metric value
+                  - listitem [ref=e116]:
+                    - strong [ref=e117]: Icon support
+                    - text: for visual distinction
+                  - listitem [ref=e118]:
+                    - strong [ref=e119]: Responsive grid
+                    - text: layout in the App
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - iframe [ref=e83]:
+        - generic [ref=f4e4]:
+          - heading "Dashboard" [level=1] [ref=f4e5]
+          - generic [ref=f4e6]:
+            - generic [ref=f4e7]:
+              - generic [ref=f4e9]:
+                - paragraph [ref=f4e11]: Revenue
+                - generic [ref=f4e12]: 📈
+              - paragraph [ref=f4e14]: $48,291
+              - generic [ref=f4e16]: ↑ 12.5%
+              - paragraph [ref=f4e17]: vs last period
+            - generic [ref=f4e18]:
+              - generic [ref=f4e20]:
+                - paragraph [ref=f4e22]: Users
+                - generic [ref=f4e23]: 👥
+              - paragraph [ref=f4e25]: 2,847
+              - generic [ref=f4e27]: ↓ 3.2%
+              - paragraph [ref=f4e28]: vs last period
+            - generic [ref=f4e29]:
+              - generic [ref=f4e31]:
+                - paragraph [ref=f4e33]: Conversion
+                - generic [ref=f4e34]: 🎯
+              - paragraph [ref=f4e36]: 3.24%
+              - generic [ref=f4e38]: ↑ 8.1%
+              - paragraph [ref=f4e39]: vs last period
+            - generic [ref=f4e40]:
+              - generic [ref=f4e42]:
+                - paragraph [ref=f4e44]: Engagement
+                - generic [ref=f4e45]: ⚡
+              - paragraph [ref=f4e47]: 67.8%
+              - generic [ref=f4e49]: ↑ 2.4%
+              - paragraph [ref=f4e50]: vs last period
+  - alert [ref=e46]
